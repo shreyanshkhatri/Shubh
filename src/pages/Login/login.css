@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+}
+
+
+.header{
+  height: 10%;
+
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.container {
+  height: 90%;
+  width: 100%;
+
+  display: flex;
+  position: relative;
+}
+
+.leftContainer{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.leftContainer h1{
+  margin-left: 35%;
+  margin-bottom: 2%;
+  margin-top: 20%;
+  font-size: 3rem;
+
+}
+
+.leftContainer h2{
+  margin-left: 35%;
+  margin-bottom: 5%;
+  font-size: 2rem;
+}
+
+.leftContainer p{
+  margin-left: 35%;
+  margin-bottom: 1%;
+}
+
+.register{
+  color: #4C49ED;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.rightContainer{
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column; 
+  
+}
+
+.rightContainer h2{
+  margin-bottom: 3%;
+  margin-left: 30%;
+  margin-top: 8%;
+
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+  height: 35%;
+  align-items: flex-end;
+  margin-left: 20%;
+}
+
+
+.input{
+  padding: 1rem;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  background-color: #E7E4E8CC;
+  color: black;
+  margin-bottom: 10%;
+  
+}
+
+.passwordContainer{
+  width: 80%;
+  position: relative;
+}
+#password{
+  padding: 1rem;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: #E7E4E8CC;
+  color: #2D60FF80;
+  margin-bottom: 0;
+  
+}
+
+.togglePassword{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  color: #888;
+}
+
+
+
+.forgot{
+  color: #E5E5E5;
+  margin-top: 0;
+  margin-bottom: 10%;
+  cursor: pointer;
+
+}
+#logIn{
+  padding: 1rem;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
+  background-color: #4C49ED;
+  color: #2D60FF80;
+  margin-bottom: 9%;
+  cursor: pointer;
+  color: #fff;
+}
+
+.continue{
+text-align: center;
+  width: 50%;
+
+  margin-left: 25%;
+  margin-top: 5%;
+  color: #E5E5E5;
+}
+.imgContainer{
+  width: 50%;
+  align-items: flex-end;
+  margin-left: 20%;
+  padding-left: 27%;
+  margin-top: 2%;
+}
+#apple{
+  margin-right: 10px;
+  cursor: pointer;
+  height: 43px;
+  width: 80px;
+}
+#google{
+  cursor: pointer;
+}
+
+
+#backlogo{
+  position: absolute;
+  top: 50%;
+
+  left: 40%;
+  height: 500px;
+}
+
+.otpButton {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: white;
+  background-color: #4C49ED;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin:10px
+}
+
+.otpButton:hover {
+  background-color: #605ef3;
+}
+
+
+.otp{
+width: 50%;
+margin:auto
+}
